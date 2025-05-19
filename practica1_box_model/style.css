@@ -1,31 +1,57 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.content{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50vh;
+}
 .box_1{
     background-color: rgb(241, 114, 120);
+    padding: 50px 45px 3px;
     display: block;
-    height: 100px;
-    margin: 20px;
-    padding: 25px;
+    height: 200px;
+    width: 300px;
+    box-sizing: border-box;
+    margin: 40px 70px 70px 70px;
+    overflow: hidden;
+    border-top-left-radius: 50px;
+    border-bottom-right-radius: 50px;
+    border-bottom:solid 5px rgb(43, 41, 41);
+}
+.box_2{
+    background-color: rgb(241, 114, 120);
+    padding: 50px 45px 3px;
+    display: block;
+    height: 200px;
+    width: 300px;
+    box-sizing: border-box;
+    margin: 40px 70px 70px 70px;
+    overflow: hidden;
+    border-top-right-radius: 50px;
+    border-bottom-left-radius: 50px;
+    border-bottom:solid 5px rgb(43, 41, 41);
 }
 
-.box_2{
-    background-color: rgb(115, 171, 245);
-    display: block;
+.box_3{
+    background-color: rgb(167, 255, 159);
+    display: flex;
     height: 100px;
-    margin: 20px;
+    width: 100px;
+    border-radius: 50%;
+    box-sizing: border-box;
     padding: 2px 4px 6px 8px;
+    /* opacity: 0.5; opacidad del contendor */
+    margin: auto;
+    text-align: center;
+    align-items: center;
 }
 
 .box{
-    border: rgb(0, 0, 0) 4px solid;
-    border-top-color: rgb(182, 182, 86);
-    border-right-color: rgb(14, 146, 53);
-    border-bottom-color: rgb(226, 45, 45);
-    border-left-color: rgb(0, 0, 0);
-    border-top-style: dotted;
-    border-right-style: dashed
-    border-bottom-style: groove;
-    border-left-style: solid;
-    border-top-width: 5px;
-    border-right-width: 4px;
-    border-bottom-width: 4px;
-    border-left-width: 4px;
+    border-top: solid 5px rgb(43, 41, 41);
+    box-sizing: border-box;
+    
 }
